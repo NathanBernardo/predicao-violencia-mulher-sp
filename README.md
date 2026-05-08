@@ -2,13 +2,13 @@
 
 Projeto desenvolvido como parte do Projeto Integrador do curso de Tecnologia em Ciência de Dados da **Faculdade de Tecnologia Jundiaí – Deputado Ary Fossen (FATEC Jundiaí)**.
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 O objetivo deste trabalho é desenvolver um modelo preditivo capaz de classificar casos de violência contra a mulher no estado de São Paulo como **graves ou não graves**, utilizando técnicas de ciência de dados e aprendizado de máquina.
 
 Os dados utilizados foram obtidos por meio do **Sistema de Informação de Agravos de Notificação (SINAN)**, do Ministério da Saúde.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **Python** – limpeza e pré-processamento dos dados
 - **R** – modelagem com regressão logística
@@ -20,7 +20,7 @@ Os dados utilizados foram obtidos por meio do **Sistema de Informação de Agrav
 | `Limpeza_Dados.ipynb` | Notebook Python com todo o processo de limpeza e criação de variáveis |
 | `Regressão_Logistica.R` | Script R com o modelo de regressão logística, curva ROC e matriz de confusão |
 
-## 📊 Resultados
+## Resultados
 
 | Métrica | Valor |
 |---|---|
@@ -30,7 +30,13 @@ Os dados utilizados foram obtidos por meio do **Sistema de Informação de Agrav
 | Acurácia Balanceada | 68,24% |
 | Kappa | 0,2565 |
 
-## ▶️ Como executar
+## 📂 Base de dados
+
+Os dados utilizados neste projeto estão disponíveis publicamente no Zenodo:
+
+🔗 [Acessar base de dados – SINAN Violência SP](https://zenodo.org/records/15169442)
+
+Baixe o arquivo e utilize como entrada no notebook `Limpeza_Dados.ipynb`.
 
 **Limpeza dos dados (Python):**
 - Abra o arquivo `Limpeza_Dados.ipynb` no Google Colab ou Jupyter Notebook
